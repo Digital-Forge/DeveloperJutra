@@ -1,2 +1,4 @@
 ﻿*.env
 Zad_1/node_modules
+Zad_2/venv
+Zad_2/mlruns
