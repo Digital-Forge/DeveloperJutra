@@ -1,0 +1,13 @@
+--- Wyniki tokenizacji dla tekstu 'Project-Gutenberg' (Wzorzec: Project-Gutenberg.txt) ---
+
+Tokenizer: all-tokenizer, Liczba tokenów: 758007
+Tokenizer: bielik-v1-tokenizer, Liczba tokenów: 519995
+Tokenizer: bielik-v2-tokenizer, Liczba tokenów: 519994
+Tokenizer: bielik-v3-tokenizer, Liczba tokenów: 836716
+Tokenizer: gpt-oss-120b-tokenizer, Liczba tokenów: 458867
+Tokenizer: nkjp-tokenizer, Liczba tokenów: 732500
+Tokenizer: pan-tadeusz-ksiega-1-tokenizer, Liczba tokenów: 1061950
+Tokenizer: pan-tadeusz-tokenizer, Liczba tokenów: 933999
+Tokenizer: wolnelektury-tokenizer, Liczba tokenów: 832496
+
+Analiza ukończona dla 10 tokenizatorów.

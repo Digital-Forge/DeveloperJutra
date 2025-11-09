@@ -1,0 +1,13 @@
+--- Wyniki tokenizacji dla tekstu 'quo-vadis' (Wzorzec: quo-vadis.txt) ---
+
+Tokenizer: all-tokenizer, Liczba tokenów: 234470
+Tokenizer: bielik-v1-tokenizer, Liczba tokenów: 478224
+Tokenizer: bielik-v2-tokenizer, Liczba tokenów: 478223
+Tokenizer: bielik-v3-tokenizer, Liczba tokenów: 290362
+Tokenizer: gpt-oss-120b-tokenizer, Liczba tokenów: 380167
+Tokenizer: nkjp-tokenizer, Liczba tokenów: 263589
+Tokenizer: pan-tadeusz-ksiega-1-tokenizer, Liczba tokenów: 386195
+Tokenizer: pan-tadeusz-tokenizer, Liczba tokenów: 300968
+Tokenizer: wolnelektury-tokenizer, Liczba tokenów: 230253
+
+Analiza ukończona dla 10 tokenizatorów.

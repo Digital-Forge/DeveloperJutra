@@ -1,0 +1,13 @@
+--- Wyniki tokenizacji dla tekstu 'pan-tadeusz-ksiega-1' (Wzorzec: pan-tadeusz-ksiega-1.txt) ---
+
+Tokenizer: all-tokenizer, Liczba tokenów: 10058
+Tokenizer: bielik-v1-tokenizer, Liczba tokenów: 20481
+Tokenizer: bielik-v2-tokenizer, Liczba tokenów: 20480
+Tokenizer: bielik-v3-tokenizer, Liczba tokenów: 13177
+Tokenizer: gpt-oss-120b-tokenizer, Liczba tokenów: 16257
+Tokenizer: nkjp-tokenizer, Liczba tokenów: 11066
+Tokenizer: pan-tadeusz-ksiega-1-tokenizer, Liczba tokenów: 12434
+Tokenizer: pan-tadeusz-tokenizer, Liczba tokenów: 9985
+Tokenizer: wolnelektury-tokenizer, Liczba tokenów: 10045
+
+Analiza ukończona dla 10 tokenizatorów.

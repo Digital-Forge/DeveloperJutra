@@ -1,0 +1,13 @@
+--- Wyniki tokenizacji dla tekstu 'pan-wolodyjowski' (Wzorzec: pan-wolodyjowski.txt) ---
+
+Tokenizer: all-tokenizer, Liczba tokenów: 225137
+Tokenizer: bielik-v1-tokenizer, Liczba tokenów: 454752
+Tokenizer: bielik-v2-tokenizer, Liczba tokenów: 454751
+Tokenizer: bielik-v3-tokenizer, Liczba tokenów: 291777
+Tokenizer: gpt-oss-120b-tokenizer, Liczba tokenów: 365069
+Tokenizer: nkjp-tokenizer, Liczba tokenów: 256717
+Tokenizer: pan-tadeusz-ksiega-1-tokenizer, Liczba tokenów: 365869
+Tokenizer: pan-tadeusz-tokenizer, Liczba tokenów: 283296
+Tokenizer: wolnelektury-tokenizer, Liczba tokenów: 220156
+
+Analiza ukończona dla 10 tokenizatorów.
