@@ -1,0 +1,79 @@
+VECTOR_LENGTH = 40
+WINDOW_SIZE = 8
+MIN_COUNT = 2
+WORKERS = 10
+EPOCHS = 40
+SAMPLE_RATE = 1e-2
+SG_MODE = 0
+
+Wnioski: 
+ - na tak małym zbiorze nie trzeba dużo epok. Epoki osiągają pakiś procentowy pułam i długo wokół niego oscylują, dopiero po dużej ilości epok od osągnięcia optimum procent zaczyn spadać
+ - większy wpływ na procent ma VECTOR_LENGTH, gdzie podanie zadużej wartości odrazu zaniża drastycznie wynik 
+ - im większe VECTOR_LENGTH tym więcej epok potrzeba
+
+--- Weryfikacja: Szukanie podobieństw dla całych SŁÓW (uśrednianie wektorów tokenów) ---
+
+10 tokenów najbardziej podobnych do SŁOWA 'wojsko' (tokeny: ['wojsko']):
+  > Wektor słowa (początek): [ 2.3283138 -5.037948  -5.495405  -1.1649408  4.81386  ]...
+  - wojsko: 1.0000
+  - wojska: 0.8318
+  - miasto: 0.8003
+  - państwo: 0.7865
+  - pułki: 0.7497
+  - świątynie: 0.7332
+  - układy: 0.7155
+  - majątki: 0.7093
+  - chorągwie: 0.6895
+  - towarzystwo: 0.6847
+
+10 tokenów najbardziej podobnych do SŁOWA 'szlachta' (tokeny: ['szlachta']):
+  > Wektor słowa (początek): [-0.51885974 -1.8084335   0.5748212   1.8533014   3.4711199 ]...
+  - szlachta: 1.0000
+  - służba: 0.7283
+  - starszyzna: 0.7173
+  - jazda: 0.6999
+  - nomarchowie: 0.6918
+  - czerń: 0.6741
+  - Litwa: 0.6710
+  - rodzina: 0.6676
+  - przyjaciele: 0.6563
+  - Kozacy: 0.6521
+
+10 tokenów najbardziej podobnych do SŁOWA 'choroba' (tokeny: ['choroba']):
+  > Wektor słowa (początek): [-0.98039955 -0.63704634  0.65468776  1.1119828   2.0570111 ]...
+  - choroba: 1.0000
+  - zdrada: 0.8152
+  - taka: 0.7669
+  - desperacja: 0.7659
+  - męka: 0.7493
+  - nadzieja: 0.7430
+  - zima: 0.7417
+  - czysta: 0.7399
+  - zemsta: 0.7377
+  - nieznana: 0.7342
+
+10 tokenów najbardziej podobnych do SŁOWA 'król' (tokeny: ['król']):
+  > Wektor słowa (początek): [ 3.2785056 -1.4277613 -2.8164845 -2.6630654  2.275871 ]...
+  - król: 1.0000
+  - hetman: 0.8704
+  - książę: 0.8153
+  - cesarz: 0.8103
+  - mistrz: 0.8026
+  - Wittenberg: 0.7904
+  - Radziwiłł: 0.7714
+  - Krzywonos: 0.7597
+  - Chmielnicki: 0.7583
+  - on: 0.7449
+
+--- Weryfikacja: Analogia wektorowa dla tokenów: ['dziecko', 'kobieta'] ---
+10 tokenów najbardziej podobnych do kombinacji tokenów: ['dziecko', 'kobieta']
+  - ona: 0.8597
+  - dziewczyna: 0.8165
+  - sama: 0.7814
+  - chora: 0.7629
+  - Ligia: 0.7223
+  - matka: 0.7211
+  - panienka: 0.7178
+  - Ewka: 0.7156
+  - ciotka: 0.7140
+  - dziewka: 0.7111
